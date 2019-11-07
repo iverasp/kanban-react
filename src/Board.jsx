@@ -90,7 +90,7 @@ class Board extends Component {
     const cardIndex = this.state.cards.findIndex(card => card.id === this.state.dragCardId);
     const newCards = this.state.cards.slice();
     newCards[cardIndex].laneId = lane.id;
-    this.setState({ cards: newCards, dragging: false });
+    this.setState({ cards: newCards, dragging: false, dragOverLaneId: null });
   }
 
   render() {
