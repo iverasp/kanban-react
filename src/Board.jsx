@@ -13,7 +13,7 @@ const Lane = styled.div`
   padding: 10px;
   ${({ isDraggedOver }) => isDraggedOver && `
     background: green;
-  '`}
+  `}
 `;
 
 const LaneTitle = styled.div`
@@ -30,7 +30,7 @@ const Cards = styled.div`
   ${({ isDragging }) => isDragging && `
     outline-style: dotted;
     outline-color: #44BBA4;
-  '`}
+  `}
 `;
 
 const Card = styled.div`
@@ -40,7 +40,7 @@ const Card = styled.div`
   /*
   ${({ isDragging }) => isDragging && `
     visibility: hidden;
-  '`}
+  `}
   */
 `;
 
